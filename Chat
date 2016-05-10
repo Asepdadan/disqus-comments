@@ -1,0 +1,18 @@
+<?php
+defined('BASEPATH') OR exit('No direct script access allowed');
+
+class Chat extends CI_Controller {
+
+
+	public function index(){
+
+		$this->load->view('chat');
+		
+	}
+
+
+}	
+
+//https://s2.mylivechat.com/webconsole/
+//https://www.mylivechat.com/dashboard/agents.ascx
+//https://www.mylivechat.com/features/livechat.aspx
